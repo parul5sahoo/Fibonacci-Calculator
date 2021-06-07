@@ -1,6 +1,6 @@
-docker build -t stephengrider/multi-client:latest -t stephengrider/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t stephengrider/multi-server:latest -t stephengrider/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t stephengrider/multi-worker:latest -t stephengrider/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t parul5sahoo/multi-client:latest -t parul5sahoo/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t parul5sahoo/multi-server:latest -t parul5sahoo/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t parul5sahoo/multi-worker:latest -t parul5sahoo/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push parul5sahoo/multi-client:latest
 docker push parul5sahoo/multi-server:latest
