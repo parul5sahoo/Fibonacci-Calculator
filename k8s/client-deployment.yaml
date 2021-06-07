@@ -14,6 +14,6 @@ spec:
         spec:
             containers:
                 - name: client
-                  image: stephengrider/multi-client
+                  image: parul5sahoo/multi-client
                   ports:
                       - containerPort: 3000
